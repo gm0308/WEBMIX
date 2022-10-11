@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="mainLoginBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.HelloController">
+   <children>
+      <Pane id="mainBack" layoutX="685.0" layoutY="200.0" prefHeight="500.0" prefWidth="350.0">
+         <children>
+            <Label layoutX="119.0" layoutY="39.0" text="WEBMIX" textFill="#3960ff">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Pane id="linePane" layoutX="50.0" layoutY="82.0" prefHeight="2.5" prefWidth="250.0" />
+            <TextField layoutX="65.0" layoutY="165.0" prefHeight="36.0" prefWidth="220.0" promptText="아이디" />
+            <PasswordField layoutX="65.0" layoutY="215.0" prefHeight="36.0" prefWidth="220.0" promptText="비밀번호" />
+            <TextField layoutX="65.0" layoutY="264.0" prefHeight="36.0" prefWidth="220.0" promptText="닉네임" />
+            <Button layoutX="65.0" layoutY="320.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="220.0" text="회원가입" />
+            <Pane id="linePane" layoutX="50.0" layoutY="379.0" prefHeight="2.5" prefWidth="250.0" />
+            <Label layoutX="47.0" layoutY="100.0" text="&quot;결백하다고 말하지마,그건 내 지성을 모독하는거야&quot;" textFill="WHITE">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="157.0" layoutY="124.0" text="&quot;中 대부&quot;" textFill="WHITE">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
