@@ -7,3 +7,7 @@
 #mainLoginBack {
     -fx-background-image: url("mainBackground.jpg");
 }
+#mangerChoice {
+    -fx-background-image: url("joker.jpg");
+    -fx-background-size: cover;
+}
