@@ -1,5 +1,5 @@
 #mainBack {
-    -fx-background-color: rgba(0,0,0,0.85);
+    -fx-background-color: rgba(0,0,0,0.95);
 }
 #linePane {
     -fx-background-color: rgba(255,255,255,0.98);
@@ -10,4 +10,7 @@
 #mangerChoice {
     -fx-background-image: url("joker.jpg");
     -fx-background-size: cover;
+}
+#HeadlinePane {
+    -fx-background-color: black;
 }
