@@ -8,20 +8,20 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="900.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
+<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="300.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
    <children>
       <Label layoutX="93.0" layoutY="70.0" text="WEBMIX" textFill="#3960ff">
          <font>
             <Font size="28.0" />
          </font>
       </Label>
-      <Pane layoutX="50.0" layoutY="109.0" prefHeight="3.0" prefWidth="200.0" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="101.0" layoutY="141.0" prefHeight="29.0" prefWidth="99.0" text="MOIVE" textAlignment="CENTER">
+      <Pane id="linePane" layoutX="50.0" layoutY="109.0" prefHeight="2.5" prefWidth="200.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="101.0" layoutY="141.0" prefHeight="29.0" prefWidth="99.0" text="MOIVE" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="61.0" layoutY="185.0" prefHeight="29.0" prefWidth="179.0" text="TV PROGRAM">
+      <Label alignment="CENTER" layoutX="61.0" layoutY="185.0" prefHeight="29.0" prefWidth="179.0" text="TV PROGRAM" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
@@ -31,32 +31,32 @@
             <Image url="@images.png" />
          </image>
       </ImageView>
-      <Label alignment="CENTER" layoutX="61.0" layoutY="229.0" prefHeight="29.0" prefWidth="179.0" text="SEARCH">
+      <Label alignment="CENTER" layoutX="61.0" layoutY="229.0" prefHeight="29.0" prefWidth="179.0" text="SEARCH" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="61.0" layoutY="271.0" prefHeight="29.0" prefWidth="179.0" text="LOGOUT">
+      <Label alignment="CENTER" layoutX="61.0" layoutY="271.0" prefHeight="29.0" prefWidth="179.0" text="LOGOUT" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Pane layoutX="50.0" layoutY="319.0" prefHeight="3.0" prefWidth="200.0" />
-      <Label layoutX="73.0" layoutY="337.0" text="&quot;삶은 풀어야 할 문제가 아니고 &quot;">
+      <Pane id="linePane" layoutX="50.0" layoutY="319.0" prefHeight="2.5" prefWidth="200.0" />
+      <Label layoutX="73.0" layoutY="337.0" text="&quot;삶은 풀어야 할 문제가 아니고 &quot;" textFill="WHITE">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="80.0" layoutY="359.0" text="&quot;경험해야 하는 여행이한다. &quot;">
+      <Label layoutX="80.0" layoutY="359.0" text="&quot;경험해야 하는 여행이한다. &quot;" textFill="WHITE">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="111.0" layoutY="381.0" prefHeight="14.0" prefWidth="78.0" text="&quot;中 곰돌이 푸&quot;">
+      <Label layoutX="111.0" layoutY="381.0" prefHeight="14.0" prefWidth="78.0" text="&quot;中 곰돌이 푸&quot;" textFill="WHITE">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Button layoutX="65.0" layoutY="419.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="170.0" text="HOME" />
+      <Button fx:id="mainBtn" layoutX="65.0" layoutY="419.0" mnemonicParsing="false" onAction="#close" prefHeight="22.0" prefWidth="170.0" text="HOME" />
    </children>
 </AnchorPane>

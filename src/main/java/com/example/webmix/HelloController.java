@@ -10,7 +10,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-public class HelloController {
+public class HelloController<Connection> {
 
     @FXML
     private Label NewLogin;
@@ -66,5 +66,19 @@ public class HelloController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+//    DB
+    @FXML
+    private TextField id;
+    @FXML
+    private PasswordField pw;
+    @FXML
+    private TextField name;
+    @FXML
+    private  Button joinBtn;
+
+    public void insertMember() {
+        DBUtil db =
     }
 }

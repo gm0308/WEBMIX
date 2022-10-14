@@ -9,20 +9,23 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class MainController implements Initializable {
+public class MainController {
 
     @FXML
     private Label MovieTxt;
@@ -68,36 +71,34 @@ public class MainController implements Initializable {
             e.printStackTrace();
         }
     }
-
     @FXML
-    private AnchorPane container;
+    private ImageView popView;
     @FXML
-    private ImageView UserImg;
+    private Button mainBtn;
+    @FXML
+    private Stage pop;
+    public void popup() {
+        Stage mainStage = (Stage) popView.getScene().getWindow();
 
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO    }
+        pop = new Stage(StageStyle.DECORATED);
+        pop.initModality(Modality.WINDOW_MODAL);
+        pop.initOwner(mainStage);
+
+        try {
+            Parent nextScene
+                    = FXMLLoader.load(getClass().getResource("User-view.fxml"));
+
+            Scene scene = new Scene(nextScene);
+            pop.setScene(scene);
+            pop.setTitle("User");
+            pop.setResizable(false);
+            pop.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-
-    @FXML
-    private void open_registration_form(MouseEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("User-view.fxml"));
-
-        Scene scene = UserImg.getScene();
-
-        root.translateXProperty().set(scene.getWidth());
-
-        StackPane parentContainer = (StackPane) scene.getRoot();
-        parentContainer.getChildren().add(root);
-
-        Timeline timeline = new Timeline();
-        KeyValue kv = new KeyValue(root.translateXProperty(), 0, Interpolator.EASE_IN);
-        KeyFrame kf = new KeyFrame(Duration.seconds(1), kv);
-        timeline.getKeyFrames().add(kf);
-        timeline.setOnFinished(event1 -> {
-            parentContainer.getChildren().remove(container);
-        });
-        timeline.play();
+    public void close() {
+        pop = (Stage) mainBtn.getScene().getWindow();
+        pop.close();
     }
-
 }

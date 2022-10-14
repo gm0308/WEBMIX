@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
+<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
    <children>
       <Pane id="HeadlinePane" prefHeight="70.0" prefWidth="1720.0">
          <children>
@@ -32,7 +32,7 @@
                   <Font size="22.0" />
                </font>
             </Label>
-            <ImageView fx:id="UserImg" fitHeight="40.0" fitWidth="40.0" layoutX="1502.0" layoutY="16.0" onMouseClicked="#open_registration_form" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="popView" fitHeight="40.0" fitWidth="40.0" layoutX="1502.0" layoutY="16.0" onMouseClicked="#popup" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@images.png" />
                </image>
