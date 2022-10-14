@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="mainLoginBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.HelloController">
+<AnchorPane id="mainLoginBack" fx:id="joinBtn" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.HelloController">
    <children>
       <Pane id="mainBack" layoutX="685.0" layoutY="200.0" prefHeight="500.0" prefWidth="350.0">
          <children>
@@ -18,10 +18,10 @@
                </font>
             </Label>
             <Pane id="linePane" layoutX="50.0" layoutY="82.0" prefHeight="2.5" prefWidth="250.0" />
-            <TextField layoutX="65.0" layoutY="165.0" prefHeight="36.0" prefWidth="220.0" promptText="아이디" />
-            <PasswordField layoutX="65.0" layoutY="215.0" prefHeight="36.0" prefWidth="220.0" promptText="비밀번호" />
-            <TextField layoutX="65.0" layoutY="264.0" prefHeight="36.0" prefWidth="220.0" promptText="닉네임" />
-            <Button fx:id="MainBtn" layoutX="65.0" layoutY="320.0" mnemonicParsing="false" onAction="#MainScene" prefHeight="30.0" prefWidth="220.0" text="회원가입" />
+            <TextField fx:id="id" layoutX="65.0" layoutY="165.0" prefHeight="36.0" prefWidth="220.0" promptText="아이디" />
+            <PasswordField fx:id="pw" layoutX="65.0" layoutY="215.0" prefHeight="36.0" prefWidth="220.0" promptText="비밀번호" />
+            <TextField fx:id="name" layoutX="65.0" layoutY="264.0" prefHeight="36.0" prefWidth="220.0" promptText="닉네임" />
+            <Button fx:id="JoinBtn" layoutX="65.0" layoutY="320.0" mnemonicParsing="false" onAction="#insertMember" prefHeight="30.0" prefWidth="220.0" text="회원가입" />
             <Pane id="linePane" layoutX="50.0" layoutY="379.0" prefHeight="2.5" prefWidth="250.0" />
             <Label layoutX="47.0" layoutY="100.0" text="&quot;결백하다고 말하지마,그건 내 지성을 모독하는거야&quot;" textFill="WHITE">
                <font>
