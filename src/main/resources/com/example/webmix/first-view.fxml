@@ -35,7 +35,7 @@
             </Label>
             <TextField layoutX="64.0" layoutY="184.0" prefHeight="36.0" prefWidth="220.0" promptText="아이디" />
             <PasswordField layoutX="64.0" layoutY="241.0" prefHeight="36.0" prefWidth="220.0" promptText="비밀번호" />
-            <Button fx:id="LoginBtn" layoutX="64.0" layoutY="304.0" mnemonicParsing="false" onAction="#LoginScene" prefHeight="30.0" prefWidth="220.0" text="로그인" />
+            <Button fx:id="LoginBtn" layoutX="64.0" layoutY="304.0" mnemonicParsing="false" onAction="#LoginAction" prefHeight="30.0" prefWidth="220.0" text="로그인" />
             <Pane id="linePane" layoutX="54.0" layoutY="355.0" prefHeight="2.5" prefWidth="240.0" />
             <Label fx:id="NewLogin" layoutX="150.0" layoutY="369.0" onMouseClicked="#NewLoginScene" text="회원가입" textFill="WHITE" />
          </children></Pane>
