@@ -101,4 +101,20 @@ public class MainController {
         pop = (Stage) mainBtn.getScene().getWindow();
         pop.close();
     }
+
+    @FXML
+    private Label LogTxt;
+
+    public void Logout() {
+        try     {
+            Parent nextScene
+                    = FXMLLoader.load(getClass().getResource("first-view.fxml"));
+            Scene scene = new Scene(nextScene);
+            Stage primaryStage = (Stage) LogTxt.getScene().getWindow();
+            primaryStage.setScene(scene);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 }

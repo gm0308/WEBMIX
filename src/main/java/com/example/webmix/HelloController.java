@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
@@ -28,6 +29,8 @@ public class HelloController {
             e.printStackTrace();
         }
     }
+    
+    Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
 
     @FXML
     private TextField id;
@@ -57,9 +60,16 @@ public class HelloController {
             rs = pstmt.executeQuery();
             if (rs.next()){
             } if (rs.getString("id").equals(ID) && rs.getString("pw").equals(PW)) {
-                Parent mainPage = (Parent) FXMLLoader.load(this.getClass().getResource("main-view"));
-                StackPane root = (StackPane) this.LoginBtn.getScene().getRoot();
-                root.getChildren().add(mainPage);
+
+                alert.setHeaderText("welcome to WEBMIX ");
+                alert.setResizable(true);
+                alert.showAndWait();
+
+                Parent nextScene
+                        = FXMLLoader.load(getClass().getResource("Main-view.fxml"));
+                Scene scene = new Scene(nextScene);
+                Stage primaryStage = (Stage) LoginBtn.getScene().getWindow();
+                primaryStage.setScene(scene);
             }
         } catch (Exception var25) {
             var25.printStackTrace();

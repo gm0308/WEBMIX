@@ -16,27 +16,12 @@
          </font>
       </Label>
       <Pane id="linePane" layoutX="50.0" layoutY="109.0" prefHeight="2.5" prefWidth="200.0" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="101.0" layoutY="141.0" prefHeight="29.0" prefWidth="99.0" text="MOIVE" textAlignment="CENTER" textFill="WHITE">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Label>
-      <Label alignment="CENTER" layoutX="61.0" layoutY="185.0" prefHeight="29.0" prefWidth="179.0" text="TV PROGRAM" textFill="WHITE">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Label>
       <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="240.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images.png" />
          </image>
       </ImageView>
-      <Label alignment="CENTER" layoutX="61.0" layoutY="229.0" prefHeight="29.0" prefWidth="179.0" text="SEARCH" textFill="WHITE">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Label>
-      <Label alignment="CENTER" layoutX="61.0" layoutY="271.0" prefHeight="29.0" prefWidth="179.0" text="LOGOUT" textFill="WHITE">
+      <Label fx:id="LogTxt" alignment="CENTER" layoutX="61.0" layoutY="201.0" onMouseClicked="#Logout" prefHeight="29.0" prefWidth="179.0" text="LOGOUT" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
@@ -57,6 +42,6 @@
             <Font size="11.0" />
          </font>
       </Label>
-      <Button fx:id="mainBtn" layoutX="65.0" layoutY="419.0" mnemonicParsing="false" onAction="#close" prefHeight="22.0" prefWidth="170.0" text="HOME" />
+      <Button fx:id="mainBtn" layoutX="65.0" layoutY="419.0" mnemonicParsing="false" onAction="#close" prefHeight="22.0" prefWidth="170.0" text="BACK" />
    </children>
 </AnchorPane>
