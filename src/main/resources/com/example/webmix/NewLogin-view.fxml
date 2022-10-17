@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="mainLoginBack" fx:id="joinBtn" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.HelloController">
+<AnchorPane id="mainLoginBack" fx:id="joinBtn" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.UserController">
    <children>
       <Pane id="mainBack" layoutX="685.0" layoutY="200.0" prefHeight="500.0" prefWidth="350.0">
          <children>

@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="mainLoginBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.HelloController">
+<AnchorPane id="mainLoginBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.HelloController">
    <children>
       <Pane id="mainBack" layoutX="685.0" layoutY="200.0" prefHeight="500.0" prefWidth="350.0" stylesheets="@Style.css">
          <children>
@@ -33,9 +33,9 @@
                   <Font size="11.0" />
                </font>
             </Label>
-            <TextField layoutX="64.0" layoutY="184.0" prefHeight="36.0" prefWidth="220.0" promptText="아이디" />
-            <PasswordField layoutX="64.0" layoutY="241.0" prefHeight="36.0" prefWidth="220.0" promptText="비밀번호" />
-            <Button fx:id="LoginBtn" layoutX="64.0" layoutY="304.0" mnemonicParsing="false" onAction="#LoginScene" prefHeight="30.0" prefWidth="220.0" text="로그인" />
+            <TextField fx:id="id" layoutX="64.0" layoutY="184.0" prefHeight="36.0" prefWidth="220.0" promptText="아이디" />
+            <PasswordField fx:id="pw" layoutX="64.0" layoutY="241.0" prefHeight="36.0" prefWidth="220.0" promptText="비밀번호" />
+            <Button fx:id="LoginBtn" layoutX="64.0" layoutY="304.0" mnemonicParsing="false" onAction="#LoginAction" prefHeight="30.0" prefWidth="220.0" text="로그인" />
             <Pane id="linePane" layoutX="54.0" layoutY="355.0" prefHeight="2.5" prefWidth="240.0" />
             <Label fx:id="NewLogin" layoutX="150.0" layoutY="369.0" onMouseClicked="#NewLoginScene" text="회원가입" textFill="WHITE" />
          </children></Pane>

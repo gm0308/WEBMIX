@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class DB {
     public Connection getConnection() {
-        String url = "jdbc:mysql://localhost:3306/webmix";
+        String url = "jdbc:mysql://localhost:3306/yydh";
         String userName = "root";
         String password = "";
         Connection conn = null;
