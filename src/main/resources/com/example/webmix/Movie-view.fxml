@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
+<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
    <children>
       <Pane id="HeadlinePane" prefHeight="70.0" prefWidth="1720.0" stylesheets="@Style.css">
          <children>
@@ -115,16 +115,6 @@
             </ImageView>
          </children>
       </Pane>
-      <Pane layoutX="160.0" layoutY="624.0" prefHeight="248.0" prefWidth="1400.0">
-         <children>
-            <Label layoutX="14.0" layoutY="7.0" prefHeight="26.0" prefWidth="474.0" text="등골이 서늘해지는 공포는 어떠신가요?" textFill="WHITE">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Label>
-            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="14.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" />
-         </children>
-      </Pane>
       <Label fx:id="TVProgramTxt1" layoutX="1540.0" layoutY="46.0" onMouseClicked="#TVScene" text="LOGOUT" textFill="WHITE">
          <font>
             <Font size="18.0" />
@@ -139,31 +129,31 @@
             </Label>
             <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="15.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@minions.jpg" />
+                  <Image url="@1917.jpeg" />
                </image>
                <viewport>
                   <Rectangle2D minX="200.0" minY="150.0" />
                </viewport>
             </ImageView>
-            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="175.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="176.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@madagasca.jpg" />
+                  <Image url="@city2.jpg" />
                </image>
                <viewport>
                   <Rectangle2D minX="200.0" minY="150.0" />
                </viewport>
             </ImageView>
             <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="350.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@bigHiaro.jpg" />
-               </image>
                <viewport>
                   <Rectangle2D minX="200.0" minY="150.0" />
                </viewport>
+               <image>
+                  <Image url="@topGun.jpg" />
+               </image>
             </ImageView>
             <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="526.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@forenz.jpg" />
+                  <Image url="@mission.jpg" />
                </image>
                <viewport>
                   <Rectangle2D minX="200.0" minY="150.0" />
@@ -171,7 +161,7 @@
             </ImageView>
             <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="690.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@GGanggu.jpg" />
+                  <Image url="@zonwick.jpg" />
                </image>
                <viewport>
                   <Rectangle2D minX="200.0" minY="150.0" />
@@ -179,7 +169,7 @@
             </ImageView>
             <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="863.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@GGangGu-new.jpeg" />
+                  <Image url="@squard.jpg" />
                </image>
                <viewport>
                   <Rectangle2D minX="200.0" minY="150.0" />
@@ -187,7 +177,7 @@
             </ImageView>
             <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1044.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@ki.jpg" />
+                  <Image url="@winnerho.png" />
                </image>
                <viewport>
                   <Rectangle2D minX="200.0" minY="150.0" />
@@ -195,7 +185,80 @@
             </ImageView>
             <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1228.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@yourname.jpg" />
+                  <Image url="@spainderman.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="160.0" layoutY="636.0" prefHeight="248.0" prefWidth="1400.0">
+         <children>
+            <Label layoutX="14.0" layoutY="6.0" prefHeight="26.0" prefWidth="474.0" text="나 자신도 달콤해지는 로맨스 영화는 어떠신가요?" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="15.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@aboutTime.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="176.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@frilic_kiss.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="350.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+               <image>
+                  <Image url="@kissingBooth.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="526.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@lalaland.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="690.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@titanic.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="863.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@twilight.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1044.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@weatherKid.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1228.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@married.jpeg" />
                </image>
                <viewport>
                   <Rectangle2D minX="200.0" minY="150.0" />
