@@ -31,14 +31,14 @@
                   <Font size="22.0" />
                </font>
             </Label>
-            <ImageView fx:id="popView" fitHeight="40.0" fitWidth="40.0" layoutX="1502.0" layoutY="16.0" onMouseClicked="#popup" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@images.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1263.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1298.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@serach.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="LogTxt" fitHeight="40.0" fitWidth="40.0" layoutX="1555.0" layoutY="15.0" onMouseClicked="#Logout" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images.png" />
                </image>
             </ImageView>
          </children>
@@ -70,5 +70,10 @@
             </Label>
          </children>
       </Pane>
+      <Label fx:id="TVProgramTxt1" layoutX="1540.0" layoutY="46.0" onMouseClicked="#TVScene" text="LOGOUT" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

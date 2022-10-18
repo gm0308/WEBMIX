@@ -16,17 +16,17 @@
                   <Font size="22.0" />
                </font>
             </Label>
-            <Label layoutX="306.0" layoutY="22.0" text="HOME" textFill="WHITE">
+            <Label fx:id="HomeTxt" layoutX="306.0" layoutY="22.0" onMouseClicked="#HomeScene" text="HOME" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
             </Label>
-            <Label layoutX="464.0" layoutY="22.0" text="MOVIE" textFill="WHITE">
+            <Label fx:id="MovieTxt" layoutX="464.0" layoutY="22.0" onMouseClicked="#MovieScene" text="MOVIE" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
             </Label>
-            <Label layoutX="604.0" layoutY="22.0" text="TV PROGRAM" textFill="WHITE">
+            <Label fx:id="TVProgramTxt" layoutX="604.0" layoutY="22.0" onMouseClicked="#TVScene" text="TV PROGRAM" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
@@ -36,11 +36,43 @@
                   <Image url="@images.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1263.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1266.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@serach.png" />
                </image>
             </ImageView>
+            <Label fx:id="TVProgramTxt1" layoutX="1485.0" layoutY="44.0" onMouseClicked="#TVScene" text="LOGOUT" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="170.0" layoutY="120.0" prefHeight="235.0" prefWidth="1400.0">
+         <children>
+            <Label layoutX="14.0" layoutY="21.0" prefHeight="26.0" prefWidth="474.0" text="오늘도 빵빵 터지는 예능은 어떠신가요?" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="170.0" layoutY="368.0" prefHeight="235.0" prefWidth="1400.0">
+         <children>
+            <Label layoutX="14.0" layoutY="19.0" prefHeight="26.0" prefWidth="474.0" text="신나는 음악 방송은 어떠신가요?" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="170.0" layoutY="633.0" prefHeight="235.0" prefWidth="1400.0">
+         <children>
+            <Label layoutX="14.0" layoutY="21.0" prefHeight="26.0" prefWidth="474.0" text="가족이 볼 수있는 애니메이션은 어떠신가요?" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
          </children>
       </Pane>
    </children>

@@ -71,12 +71,14 @@ public class MainController {
             e.printStackTrace();
         }
     }
+
     @FXML
     private ImageView popView;
     @FXML
     private Button mainBtn;
     @FXML
     private Stage pop;
+
     public void popup() {
         Stage mainStage = (Stage) popView.getScene().getWindow();
 
@@ -97,16 +99,17 @@ public class MainController {
             e.printStackTrace();
         }
     }
+
     public void close() {
         pop = (Stage) mainBtn.getScene().getWindow();
         pop.close();
     }
 
     @FXML
-    private Label LogTxt;
+    private ImageView LogTxt;
 
     public void Logout() {
-        try     {
+        try {
             Parent nextScene
                     = FXMLLoader.load(getClass().getResource("first-view.fxml"));
             Scene scene = new Scene(nextScene);
