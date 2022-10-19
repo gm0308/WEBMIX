@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -7,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
+<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
    <children>
       <Pane id="HeadlinePane" prefHeight="70.0" prefWidth="1720.0" stylesheets="@Style.css">
          <children>
@@ -48,31 +49,150 @@
             </Label>
          </children>
       </Pane>
-      <Pane layoutX="170.0" layoutY="120.0" prefHeight="235.0" prefWidth="1400.0">
+      <Pane layoutX="160.0" layoutY="93.0" prefHeight="248.0" prefWidth="1400.0">
          <children>
-            <Label layoutX="14.0" layoutY="21.0" prefHeight="26.0" prefWidth="474.0" text="오늘도 빵빵 터지는 예능은 어떠신가요?" textFill="WHITE">
+            <Label layoutX="14.0" layoutY="6.0" prefHeight="26.0" prefWidth="474.0" text="오늘도 다양한  예능은 어떠신가요?" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="15.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alone.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="175.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@baseball.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="192.0" fitWidth="150.0" layoutX="350.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@squid.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="526.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@homez.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="690.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@knowBro.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="863.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@soccer.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1044.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@nulmyeon.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1228.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@solo.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
          </children>
       </Pane>
-      <Pane layoutX="170.0" layoutY="368.0" prefHeight="235.0" prefWidth="1400.0">
+      <Pane layoutX="160.0" layoutY="363.0" prefHeight="248.0" prefWidth="1400.0">
          <children>
-            <Label layoutX="14.0" layoutY="19.0" prefHeight="26.0" prefWidth="474.0" text="신나는 음악 방송은 어떠신가요?" textFill="WHITE">
+            <Label layoutX="14.0" layoutY="6.0" prefHeight="26.0" prefWidth="474.0" text="요즘 인기있는 드라마는 어떠신가요?" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-         </children>
-      </Pane>
-      <Pane layoutX="170.0" layoutY="633.0" prefHeight="235.0" prefWidth="1400.0">
-         <children>
-            <Label layoutX="14.0" layoutY="21.0" prefHeight="26.0" prefWidth="474.0" text="가족이 볼 수있는 애니메이션은 어떠신가요?" textFill="WHITE">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Label>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="15.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2521.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="175.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cheerUp.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="192.0" fitWidth="150.0" layoutX="350.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@doctor.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="526.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@DP.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="690.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Hotel.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="863.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@paperHouse.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1044.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@surinam.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1228.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@wooyenongwoo.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
          </children>
       </Pane>
    </children>
