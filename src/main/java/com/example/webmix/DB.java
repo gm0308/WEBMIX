@@ -2,7 +2,7 @@ package com.example.webmix;
 
 import java.sql.*;
 
-public class B {
+public class DB {
     public Connection getConnection() {
         String url = "jdbc:mysql://localhost:3306/yydh";
         String userName = "root";
@@ -19,7 +19,6 @@ public class B {
 
 
 }
-
 
 
 

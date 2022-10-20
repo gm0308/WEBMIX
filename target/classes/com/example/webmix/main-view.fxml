@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
@@ -8,7 +9,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
+<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
    <children>
       <Pane id="HeadlinePane" prefHeight="70.0" prefWidth="1720.0">
          <children>
@@ -76,12 +77,220 @@
       </Pane>
       <Pane layoutX="170.0" layoutY="372.0" prefHeight="238.0" prefWidth="1400.0">
          <children>
-            <Label layoutX="22.0" layoutY="14.0" text="일일 베스트 TOP 10" textFill="WHITE" />
+            <Label layoutX="21.0" layoutY="11.0" text="일일 베스트 TOP 8" textFill="WHITE" />
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="16.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@surinam.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="180.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@city2.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="353.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@wooyenongwoo.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="526.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@GGangGu-new.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="700.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@aboutTime.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="878.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@paperHouse.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1055.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ki.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1235.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@solo.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <Label layoutX="-2.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="1" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="156.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="2" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="330.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="3" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="503.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="4" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="677.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="5" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="859.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="6" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="1032.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="7" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="1212.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="8" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
          </children>
       </Pane>
-      <Pane layoutX="170.0" layoutY="628.0" prefHeight="238.0" prefWidth="1400.0">
+      <Pane layoutX="170.0" layoutY="632.0" prefHeight="238.0" prefWidth="1400.0">
          <children>
-            <Label layoutX="22.0" layoutY="14.0" text="주간 베스트 TOP 10" textFill="WHITE" />
+            <Label layoutX="21.0" layoutY="11.0" text="주간 베스트 TOP 8" textFill="WHITE" />
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="16.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@godFather.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="180.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@nulmyeon.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="353.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@1917.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="526.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@surinam.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="700.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cheerUp.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="878.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@jokerMovie.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1055.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@doctor.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="1235.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2521.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D minX="200.0" minY="150.0" />
+               </viewport>
+            </ImageView>
+            <Label layoutX="-2.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="1" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="156.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="2" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="330.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="3" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="504.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="4" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="677.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="5" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="859.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="6" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="1032.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="7" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="1212.0" layoutY="-3.0" prefHeight="48.0" prefWidth="23.0" text="8" textFill="WHITE">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
          </children>
       </Pane>
    </children>
