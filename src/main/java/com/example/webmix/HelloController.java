@@ -55,8 +55,9 @@ public class HelloController {
             pstmt.setString(1, ID);
             pstmt.setString(2, PW);
             rs = pstmt.executeQuery();
-            if (rs.next()){
-            } if (rs.getString("id").equals(ID) && rs.getString("pw").equals(PW)) {
+            if (rs.next()) {
+            }
+            if (rs.getString("id").equals(ID) && rs.getString("pw").equals(PW)) {
 
                 alert.setHeaderText("welcome to WEBMIX ");
                 alert.setResizable(true);
@@ -74,7 +75,6 @@ public class HelloController {
             if (pstmt != null) {
                 try {
                     pstmt.close();
-
                 } catch (SQLException ver24) {
                 }
             }
@@ -82,7 +82,6 @@ public class HelloController {
 
                 try {
                     conn.close();
-
                 } catch (SQLException var23) {
                 }
             }
