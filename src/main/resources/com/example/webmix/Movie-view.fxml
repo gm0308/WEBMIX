@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -8,7 +9,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
+<AnchorPane id="mainBack" prefHeight="900.0" prefWidth="1720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webmix.MainController">
    <children>
       <Pane id="HeadlinePane" prefHeight="70.0" prefWidth="1720.0" stylesheets="@Style.css">
          <children>
@@ -17,20 +18,29 @@
                   <Font size="22.0" />
                </font>
             </Label>
-            <Label fx:id="HomeTxt" layoutX="306.0" layoutY="22.0" onMouseClicked="#HomeScene" text="HOME" textFill="WHITE">
+            <Label fx:id="HomeTxt" layoutX="316.0" layoutY="22.0" onMouseClicked="#HomeScene" text="HOME" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Label>
             <Label fx:id="MovieTxt" layoutX="464.0" layoutY="22.0" onMouseClicked="#MovieScene" text="MOVIE" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Label>
             <Label fx:id="TVProgramTxt" layoutX="604.0" layoutY="22.0" onMouseClicked="#TVScene" text="TV PROGRAM" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Label>
             <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1298.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -41,6 +51,9 @@
                <image>
                   <Image url="@images.png" />
                </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </ImageView>
          </children>
       </Pane>

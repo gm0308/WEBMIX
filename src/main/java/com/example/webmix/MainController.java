@@ -111,5 +111,28 @@ public class MainController {
         }
     }
 
+    @FXML
+    private Button jokerBtn;
+
+    public void JokerScene() {
+        Stage mainStage = (Stage) jokerBtn.getScene().getWindow();
+
+        pop = new Stage(StageStyle.DECORATED);
+        pop.initModality(Modality.WINDOW_MODAL);
+        pop.initOwner(mainStage);
+
+        try {
+            Parent nextScene
+                    = FXMLLoader.load(getClass().getResource("Joker.fxml"));
+
+            Scene scene = new Scene(nextScene);
+            pop.setScene(scene);
+            pop.setTitle("MovieList");
+            pop.setResizable(false);
+            pop.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
 
