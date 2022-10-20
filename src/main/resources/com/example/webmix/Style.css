@@ -14,3 +14,7 @@
 #HeadlinePane {
     -fx-background-color: black;
 }
+
+#img {
+    -fx-border-color: black 3px;
+}

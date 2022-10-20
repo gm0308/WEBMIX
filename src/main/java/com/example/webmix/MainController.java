@@ -63,38 +63,38 @@ public class MainController {
         }
     }
 
-    @FXML
-    private ImageView popView;
-    @FXML
-    private Button mainBtn;
-    @FXML
-    private Stage pop;
+//    @FXML
+//    private ImageView popView;
+//    @FXML
+//    private Button mainBtn;
+   @FXML
+   private Stage pop;
+//
+//    public void popup() {
+//        Stage mainStage = (Stage) popView.getScene().getWindow();
+//
+//        pop = new Stage(StageStyle.DECORATED);
+//        pop.initModality(Modality.WINDOW_MODAL);
+//        pop.initOwner(mainStage);
+//
+//        try {
+//            Parent nextScene
+//                    = FXMLLoader.load(getClass().getResource("User-view.fxml"));
+//
+//            Scene scene = new Scene(nextScene);
+//            pop.setScene(scene);
+//            pop.setTitle("User");
+//            pop.setResizable(false);
+//            pop.show();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
 
-    public void popup() {
-        Stage mainStage = (Stage) popView.getScene().getWindow();
-
-        pop = new Stage(StageStyle.DECORATED);
-        pop.initModality(Modality.WINDOW_MODAL);
-        pop.initOwner(mainStage);
-
-        try {
-            Parent nextScene
-                    = FXMLLoader.load(getClass().getResource("User-view.fxml"));
-
-            Scene scene = new Scene(nextScene);
-            pop.setScene(scene);
-            pop.setTitle("User");
-            pop.setResizable(false);
-            pop.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void close() {
-        pop = (Stage) mainBtn.getScene().getWindow();
-        pop.close();
-    }
+//    public void close() {
+//        pop = (Stage) mainBtn.getScene().getWindow();
+//        pop.close();
+//    }
 
     @FXML
     private ImageView LogTxt;
@@ -127,7 +127,7 @@ public class MainController {
 
             Scene scene = new Scene(nextScene);
             pop.setScene(scene);
-            pop.setTitle("MovieList");
+            pop.setTitle("Movie : Joker");
             pop.setResizable(false);
             pop.show();
         } catch (IOException e) {

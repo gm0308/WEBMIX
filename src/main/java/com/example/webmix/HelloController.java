@@ -75,13 +75,16 @@ public class HelloController {
             if (pstmt != null) {
                 try {
                     pstmt.close();
+
                 } catch (SQLException ver24) {
+
                 }
             }
             if (conn != null) {
 
                 try {
                     conn.close();
+
                 } catch (SQLException var23) {
                 }
             }

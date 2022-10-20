@@ -86,7 +86,7 @@
                   <Font size="11.0" />
                </font>
                <cursor>
-                  <Cursor fx:constant="MOVE" />
+                  <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
          </children>

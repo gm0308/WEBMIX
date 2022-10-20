@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
@@ -18,10 +19,19 @@
                </font>
             </Label>
             <Pane id="linePane" layoutX="50.0" layoutY="82.0" prefHeight="2.5" prefWidth="250.0" />
-            <TextField fx:id="id" layoutX="65.0" layoutY="165.0" prefHeight="36.0" prefWidth="220.0" promptText="아이디" />
+            <TextField fx:id="id" layoutX="65.0" layoutY="165.0" prefHeight="36.0" prefWidth="220.0" promptText="아이디">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></TextField>
             <PasswordField fx:id="pw" layoutX="65.0" layoutY="215.0" prefHeight="36.0" prefWidth="220.0" promptText="비밀번호" />
-            <TextField fx:id="name" layoutX="65.0" layoutY="264.0" prefHeight="36.0" prefWidth="220.0" promptText="닉네임" />
-            <Button fx:id="JoinBtn" layoutX="65.0" layoutY="320.0" mnemonicParsing="false" onAction="#insertMember" prefHeight="30.0" prefWidth="220.0" text="회원가입" />
+            <TextField fx:id="name" layoutX="65.0" layoutY="264.0" prefHeight="36.0" prefWidth="220.0" promptText="닉네임">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></TextField>
+            <Button fx:id="JoinBtn" layoutX="65.0" layoutY="320.0" mnemonicParsing="false" onAction="#insertMember" prefHeight="30.0" prefWidth="220.0" text="회원가입">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
             <Pane id="linePane" layoutX="50.0" layoutY="379.0" prefHeight="2.5" prefWidth="250.0" />
             <Label layoutX="47.0" layoutY="100.0" text="&quot;결백하다고 말하지마,그건 내 지성을 모독하는거야&quot;" textFill="WHITE">
                <font>
@@ -33,8 +43,14 @@
                   <Font size="11.0" />
                </font>
             </Label>
-            <Label fx:id="MainTxt" layoutX="135.0" layoutY="395.0" onMouseClicked="#MainLabelScene" prefHeight="14.0" prefWidth="91.0" text="메뉴로 돌아가기" textFill="WHITE" />
+            <Label fx:id="MainTxt" layoutX="135.0" layoutY="395.0" onMouseClicked="#MainLabelScene" prefHeight="14.0" prefWidth="91.0" text="메뉴로 돌아가기" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
          </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Pane>
    </children>
 </AnchorPane>
