@@ -196,12 +196,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </ImageView>
-            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1266.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@serach.png" />
-               </image>
-            </ImageView>
-            <Label fx:id="TVProgramTxt1" layoutX="1485.0" layoutY="44.0" onMouseClicked="#TVScene" text="LOGOUT" textFill="WHITE">
+            <Label fx:id="LogLabel" layoutX="1485.0" layoutY="44.0" onMouseClicked="#Logout2" text="LOGOUT" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>

@@ -259,11 +259,6 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Label>
-            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1298.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@serach.png" />
-               </image>
-            </ImageView>
             <ImageView fx:id="LogTxt" fitHeight="40.0" fitWidth="40.0" layoutX="1555.0" layoutY="15.0" onMouseClicked="#Logout" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@images.png" />
@@ -272,7 +267,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </ImageView>
-            <Label fx:id="TVProgramTxt1" layoutX="1538.0" layoutY="40.0" onMouseClicked="#TVScene" text="LOGOUT" textFill="WHITE">
+            <Label fx:id="LogLabel" layoutX="1538.0" layoutY="40.0" onMouseClicked="#Logout2" text="LOGOUT" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
